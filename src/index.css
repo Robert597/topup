@@ -39,9 +39,21 @@ body{
   display: block;
   overflow-x: hidden;
 }
-.swiper-button-next, .swiper-button-prev{
-  color: #fff !important;
-  background-color: #ebebeb !important;
-  padding: 30px;
-  border-radius: 50%;
+
+.swiper-button-next::after, .swiper-button-prev::after{
+ font-size: 24px !important;
+width: 30px;
+height: 30px;
+background-color: #999;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px 15px;
+color: #fff;
+}
+@media all and (max-width: 600px){
+  .swiper-button-next, .swiper-button-prev{
+    padding: 15px;
+  }
 }

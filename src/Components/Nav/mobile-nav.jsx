@@ -26,9 +26,9 @@ const MobileNav = () => {
             firstList: !activelist.firstList})}>
             <span>Shop </span>
             <ul className='sub-menu'>
-                <li><Link to="data-plans">Data</Link></li>
-                <li><Link to="data-plans">Voice</Link></li>
-                <li><Link to="data-plans">Devices</Link></li>
+                <li onClick={() => setMenu(false)}><Link to="data-plans">Data</Link></li>
+                <li onClick={() => setMenu(false)}><Link to="data-plans">Voice</Link></li>
+                <li onClick={() => setMenu(false)}><Link to="data-plans">Devices</Link></li>
             </ul>
             </li>
 
@@ -36,10 +36,10 @@ const MobileNav = () => {
             secondlist: !activelist.secondlist})}>
             <span>Support </span>
             <ul className='sub-menu'>
-                <li>Device Compatibility</li>
-                <li>Device Configuration</li>
-                <li>FAQs</li>
-                <li>Speed Test</li>
+                <li onClick={() => setMenu(false)}>Device Compatibility</li>
+                <li onClick={() => setMenu(false)}>Device Configuration</li>
+                <li onClick={() => setMenu(false)}>FAQs</li>
+                <li onClick={() => setMenu(false)}>Speed Test</li>
             </ul>
             </li>
 
@@ -47,11 +47,11 @@ const MobileNav = () => {
             thirdlist: !activelist.thirdlist})}>
             <span>Recharge </span>
             <ul className='sub-menu'>
-                <li><a href="https://myntel.ntel.com.ng/login">myntel</a></li>
-                <li><a href="https://ibankpilot.gtbank.com/onboarding/login">Gtb app</a></li>
-                <li><a href="https://www.quickteller.com/ntel">QuickTeller</a></li>
-                <li><a href="https://www.ntel.com.ng/ntel-outlets/">ntel outlets</a></li>
-                <li><a href="http://www.payxpress.com/">PayXpress</a></li>
+                <li onClick={() => setMenu(false)}><a href="https://myntel.ntel.com.ng/login">myntel</a></li>
+                <li onClick={() => setMenu(false)}><a href="https://ibankpilot.gtbank.com/onboarding/login">Gtb app</a></li>
+                <li onClick={() => setMenu(false)}><a href="https://www.quickteller.com/ntel">QuickTeller</a></li>
+                <li onClick={() => setMenu(false)}><a href="https://www.ntel.com.ng/ntel-outlets/">ntel outlets</a></li>
+                <li onClick={() => setMenu(false)}><a href="http://www.payxpress.com/">PayXpress</a></li>
                 
             </ul>
             </li>
@@ -61,8 +61,8 @@ const MobileNav = () => {
             <span>About </span>
 
             <ul className='sub-menu'>
-                <li><Link to="about">about ntel</Link></li>
-                <li><Link to="contact">Contact Us</Link></li>
+                <li onClick={() => setMenu(false)}><Link to="about">about ntel</Link></li>
+                <li onClick={() => setMenu(false)}><Link to="contact">Contact Us</Link></li>
                 </ul>
             </li>
 
