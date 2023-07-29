@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: Neue Montreal;
+    src: url(./assets/Fonts/neue/NeueMontreal-Regular.otf);
+}
+
+@font-face {
+    font-family: Neue Medium;
+    src: url(./assets/Fonts/neue/NeueMontreal-Medium.otf);
+}
+
+@font-face {
+    font-family: Neue Bold;
+    src: url(./assets/Fonts/neue/NeueMontreal-Bold.otf);
+}
+@font-face {
+    font-family: Sf Pro Display;
+    src: url(./assets/Fonts/FontsFree-Net-SFProDisplay-Semibold.ttf);
+}
+@font-face {
+    font-family: Sf Pro Medium;
+    src: url(./assets/Fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+    font-family: Sf Pro Regular;
+    src: url(./assets/Fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+*{
+  margin: 0;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  position: relative;
+  display: block;
+  overflow-x: hidden;
+}
+.swiper-button-next, .swiper-button-prev{
+  color: #fff !important;
+  background-color: #ebebeb !important;
+  padding: 30px;
+  border-radius: 50%;
+}

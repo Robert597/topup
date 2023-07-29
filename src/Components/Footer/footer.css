@@ -1,0 +1,45 @@
+.footer{
+    width: 100%;
+    padding: 40px;
+    background-color: #e7077d;
+}
+.footer-content-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.footer-link-header{
+    color: #000;
+    font-family: Neue Montreal;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.footerlinks{
+    list-style: none;
+}
+.footer-link{
+    color: #fff;
+    font-family: Neue Montreal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #fff;
+}
+@media all and (max-width: 600px){
+    .footer{
+        padding: 40px 20px;
+    }
+}
+@media all and (max-width: 760px){
+    .footer-content-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content{
+        margin-bottom: 20px;
+    }
+}

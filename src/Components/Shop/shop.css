@@ -1,0 +1,164 @@
+
+.shopHeader{
+    padding: 40px 100px;
+    width: 100%;
+    height: 300px;
+   background-image: url('../../assets/data-plans.jpg');
+background-repeat: no-repeat;
+display: flex;
+background-size: cover;
+flex-direction: column;
+justify-content: flex-end;
+}
+.boxesContainer{
+    width: 100;
+    padding: 40px 100px;
+}
+.box-content-conteainer{
+display: flex;
+margin: 20px 0;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+.box-img{
+    width: 50%;
+    height: auto;
+}
+.box-content{
+    width: 50%;
+    padding: 0 40px;
+}
+.box-img img{
+    width: 100%;
+    height: auto;
+}
+.box-content-title{
+    font-size: 42px;
+    font-family: Neue Montreal;
+    color: #e7077d;
+    line-height: 65px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  
+}
+.box-content-subheading{
+    font-family: Neue Montreal;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.box-content-lists{
+    font-family: Neue Montreal;
+    font-size: 14px;
+    color: #333;
+    line-height: 25px;
+    padding: 10px 15px;
+}
+.box-content-button{
+    background-color: #e7077d;
+    padding: 1.1em 3em;
+    border: none;
+    color: #fff;
+    font-family: Neue Montreal;
+    font-size: 16px;
+    border-radius: 2em;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+}
+.box-content-1{
+    background-color: rgb(206, 247, 219);
+}
+.box-content-2{
+    background-color: rgb(232, 238, 141);
+}
+.box-content-3{
+    background-color: rgb(251, 218, 234);
+}
+.box-content-4{
+    background-color: rgb(237, 237, 237);
+}
+@media all and (max-width: 1200px){
+    .boxesContainer{
+        width: 100%;
+        padding: 40px;
+    }
+}
+@media all and (max-width: 1100px){
+    .boxesContainer{
+        width: 100%;
+        padding: 40px;
+    }
+    .box-img{
+        width: 40%;
+        height: auto;
+    }
+    .box-content{
+        width: 60%;
+        padding: 40px 20px;
+    }
+}
+@media all and (max-width: 768px){
+    .box-content-conteainer{
+        flex-direction: column;
+        margin: 20px 0;
+        }
+        .box-img{
+            width: 100%;
+            height: auto;
+        }
+        .box-content{
+            width: 100%;
+            padding: 40px 20px;
+        }
+}
+@media all and (min-width: 768px) and (max-width: 910px){
+    .box-content-title{
+        font-size: 32px;
+        line-height: 45px;
+      
+    }
+    .box-content-subheading{        font-size: 18px;
+    }
+}
+@media all and (max-width: 760px){
+    .shopHeader{
+        padding: 40px 60px;
+        height: 150px;
+        display: block;
+    }
+}
+@media all and (max-width: 480px){
+    .shopHeader{
+        padding: 40px 20px;
+        height: 100px;
+    }
+}
+@media all and (max-width: 600px){
+    .shopHeader{
+        padding: 40px 60px;
+    }
+    .box-content-title{
+        font-size: 32px;
+        line-height: 45px;
+      
+    }
+    .box-content-subheading{        font-size: 18px;
+    }
+    .boxesContainer{
+        width: 100;
+        padding: 40px 20px;
+    }
+}
+@media all and (max-width: 450px){
+    .box-content-title{
+        font-size: 24px;
+        line-height: 35px;
+      
+    }
+    .box-content-subheading{        font-size: 16px;
+    }
+}

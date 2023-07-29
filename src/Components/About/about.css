@@ -1,0 +1,84 @@
+.aboutHeader{
+    padding: 40px 100px;
+    width: 100%;
+    height: 200px;
+   background-image: url('../../assets/about-us.jpg');
+background-repeat: no-repeat;
+display: flex;
+background-size: cover;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+.aboutHeader h1{
+    font-family: sf Pro Display;
+    font-size: 40px;
+    letter-spacing: -0.01em;
+    color: #e7077d;
+    line-height: 60px;
+}
+.aboutHeader p{
+    font-family: Neue Montreal;
+    font-size: 18px;
+    color: #8ad0b8;
+    line-height: 22px;
+}
+.aboutContentContainer{
+    width: 100%;
+    padding: 40px 100px;
+}
+.aboutcontentTitle{
+color: #919191;
+font-family: sf Pro Display;
+font-size: 40px;
+line-height: 55px;
+}
+.aboutContent-content{
+    padding: 20px 0;
+}
+.aboutContent-content h5{
+font-size: 14px;
+font-family: Neue Montreal;
+color: #919191;
+line-height: 20px;
+}
+.aboutContent-content p{
+font-size: 16px;
+font-family: Neue Montreal;
+color: #999;
+line-height: 28px;
+}
+@media all and (max-width: 760px){
+    .aboutHeader{
+        padding: 40px 60px;
+        height: 150px;
+        display: block;
+    }
+    .aboutContentContainer{
+        width: 100%;
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 600px){
+    .aboutHeader{
+        padding: 40px 60px;
+    }
+    .aboutContentContainer{
+        width: 100%;
+        padding: 40px 20px;
+    }
+}
+@media all and (max-width: 460px){
+    .aboutHeader h1{
+        font-family: sf Pro Display;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .aboutHeader p{
+        font-size: 16px;
+    }
+    .aboutcontentTitle{
+        font-size: 30px;
+        line-height: 42px;
+        }
+}

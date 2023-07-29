@@ -1,0 +1,106 @@
+.welcome-container{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #8ad0b8;
+}
+.welcome-content{
+    padding: 20px;
+}
+.welcome-content h1{
+    font-family: sf Pro Display;
+    margin-bottom: 30px;
+    letter-spacing: -0.05em;
+    font-size: 50px;
+}
+.welcome-content p{
+    font-family: Neue Montreal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.welcome-content button{
+    background-color: #e7077d;
+    padding: 1.1em 2em;
+    border: none;
+    color: #fff;
+    font-family: Neue Montreal;
+    font-size: 16px;
+    border-radius: 2em;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.welcome-content button:hover{
+    background-color: #000;
+}
+@media all and (max-width: 1100px){
+    .welcome-content h1{
+        font-size: 36px;
+    }
+    .welcome-content p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .welcome-content button{
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 450px){
+    .welcome-content h1{
+        font-size: 28px;
+    }
+    .welcome-content p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .welcome-content button{
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 350px){
+    .welcome-content h1{
+        font-size: 22px;
+    }
+}
+@media all and (max-width: 1000px){
+    .welcome-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .WelcomeImageContainer{
+        width: 100%;
+        height: auto;
+    }
+    .WelcomeImageContainer img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media all and (max-width: 600px){
+    .welcome-container{
+        padding: 40px 20px;
+    }
+    .welcome-content{
+        padding: 20px 0;
+    }
+  
+}
+@media all and (max-width: 1000px){
+    .welcome-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .WelcomeImageContainer{
+        width: 100%;
+        height: auto;
+    }
+    .WelcomeImageContainer img{
+        width: 100%;
+        height: auto;
+    }
+}
