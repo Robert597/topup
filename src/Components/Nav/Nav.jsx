@@ -4,7 +4,7 @@ import Shop2 from "../../assets/plans.png";
 import Shop3 from "../../assets/troi22.png";
 import Recharge1 from "../../assets/ntelcare.png";
 import Recharge2 from "../../assets/gtb.png";
-import Recharge3 from "../../assets/quickteller.png";
+import Recharge3 from "../../assets/Quickteller.png";
 import Recharge4 from "../../assets/nteloutlet.png";
 import Recharge5 from "../../assets/payxpress.png";
 import Support1 from "../../assets/support11.png";
