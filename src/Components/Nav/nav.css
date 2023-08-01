@@ -59,7 +59,7 @@
     background-color: #fff;
     justify-content: space-between;
 }
-.navContainer li:hover{
+.navContainer li a:hover, .navContainer li:hover{
 color: rgba(230, 7, 124, 1);
 transition: color 0.5s;
 }
@@ -132,6 +132,13 @@ transition: color 0.5s;
     .navbar{
         display: none;
     }
+   .Nav{
+    justify-content: flex-start;
+   }
+   .logo{
+    text-align: center;
+    width: 100%;
+   }
 }
 @media all and (max-width: 600px){
     .Nav{

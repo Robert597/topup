@@ -61,33 +61,25 @@ const Nav = () => {
                 <li>
                     Support
                     <div className='dropdown'>
-                    <div className='dropdownsub'>
-                            <p>Device Compatibility</p>
+                    
+
+                        <div className='dropdownsub'>
+                            <p><Link to="device-configuration">Device Configuration</Link></p>
                             <div className='dropdownImg'>
-                                <img src={Support1}/>
+                            <Link to="device-configuration"> <img src={Support2}/></Link>
                             </div>
                         </div>
 
                         <div className='dropdownsub'>
-                            <p>Device Configuration</p>
+                            <p><Link to="faq">FAQs</Link></p>
                             <div className='dropdownImg'>
-                                <img src={Support2}/>
+                            <Link to="faq">
+                            <img src={Support3}/>
+                            </Link>
+                               
                             </div>
                         </div>
 
-                        <div className='dropdownsub'>
-                            <p>FAQs</p>
-                            <div className='dropdownImg'>
-                                <img src={Support3}/>
-                            </div>
-                        </div>
-
-                        <div className='dropdownsub'>
-                            <p>Speed Test</p>
-                            <div className='dropdownImg'>
-                                <img src={Support4}/>
-                            </div>
-                        </div>
                     </div>
                 </li>
 

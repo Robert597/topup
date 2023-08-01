@@ -36,10 +36,8 @@ const MobileNav = () => {
             secondlist: !activelist.secondlist})}>
             <span>Support </span>
             <ul className='sub-menu'>
-                <li onClick={() => setMenu(false)}>Device Compatibility</li>
-                <li onClick={() => setMenu(false)}>Device Configuration</li>
-                <li onClick={() => setMenu(false)}>FAQs</li>
-                <li onClick={() => setMenu(false)}>Speed Test</li>
+                <li onClick={() => setMenu(false)}><Link to="device-configuration">Device Configuration</Link></li>
+                <li onClick={() => setMenu(false)}><Link to="faq">FAQs</Link></li>
             </ul>
             </li>
 

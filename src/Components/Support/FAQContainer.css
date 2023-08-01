@@ -1,0 +1,69 @@
+.faqHeader{
+    padding: 40px 100px;
+    width: 100%;
+    height: 200px;
+   background-image: url('../../assets/ntel-faqs.jpg');
+background-repeat: no-repeat;
+display: flex;
+background-size: cover;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+.faqHeader h1{
+    font-family: sf Pro Display;
+    font-size: 40px;
+    letter-spacing: -0.01em;
+    color: #e7077d;
+    line-height: 60px;
+}
+.faqHeader p{
+    font-family: Neue Montreal;
+    font-size: 18px;
+    color: #8ad0b8;
+    line-height: 22px;
+}
+.Faq-content-container{
+    padding: 40px 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.faq-content{
+    width: 50%;
+}
+.faq-content-title{
+    color: #e7077d;
+    font-size: 28px;
+    font-family: sf Pro Display;
+    line-height: 38px;
+    letter-spacing: -0.05em;
+}
+@media all and (max-width: 760px){
+    .faqHeader{
+        padding: 40px 60px;
+        height: 150px;
+        display: block;
+    }
+    .Faq-content-container{
+       flex-direction: column;
+       padding: 40px 20px;
+    }
+    .faq-content{
+        width: 100%;
+    }
+}
+@media all and (max-width: 600px){
+    .faqHeader{
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 460px){
+    .faqHeader h1{
+        font-family: sf Pro Display;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .faqHeader p{
+        font-size: 16px;
+    }
+}
